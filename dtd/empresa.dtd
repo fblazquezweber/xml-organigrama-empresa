@@ -1,0 +1,9 @@
+<!ELEMENT empresa (departamento+)>
+<!ELEMENT departamento (nombre_departamento, (jefe | director))>
+<!ELEMENT nombre_departamento (#PCDATA)>
+<!ELEMENT jefe (nombre, cargo+)>
+<!ELEMENT director (nombre, cargo+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cargo (nombre_cargo, nombre)>
+<!ELEMENT nombre_cargo (#PCDATA)>
+<!ATTLIST nombre titulo CDATA #IMPLIED>

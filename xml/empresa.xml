@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "../dtd/empresa.dtd">
+<empresa>
+    <departamento>
+        <nombre_departamento>Recursos Humanos</nombre_departamento>
+        <jefe>
+            <nombre titulo="Licda.">Laura Selección</nombre>
+            <cargo>
+                <nombre_cargo>Técnico de nóminas</nombre_cargo>
+                <nombre>María Planillas</nombre>
+            </cargo>
+            <cargo>
+                <nombre_cargo>Técnico de selección</nombre_cargo>
+                <nombre>Carlos Reclutador</nombre>
+            </cargo>
+        </jefe>
+
+    </departamento>
+    <departamento>
+        <nombre_departamento>Dirección General</nombre_departamento>
+        <director>
+            <nombre titulo="Prof.">Gemma Santos Avilés</nombre>
+            <cargo>
+                <nombre_cargo>Asistente de dirección</nombre_cargo>
+                <nombre>Clara Agenda</nombre>
+            </cargo>
+            <cargo>
+                <nombre_cargo>Responsable de planificación</nombre_cargo>
+                <nombre>Pedro Rutas</nombre>
+            </cargo>
+        </director>
+
+    </departamento>
+    <departamento>
+        <nombre_departamento>Tecnología</nombre_departamento>
+        <jefe>
+            <nombre titulo="Ing.">Francisco Blazquez Weber</nombre>
+            <cargo>
+                <nombre_cargo>Desarrollador frontend</nombre_cargo>
+                <nombre>Ana Interfaces</nombre>
+            </cargo>
+            <cargo>
+                <nombre_cargo>Desarrollador backend</nombre_cargo>
+                <nombre>Diego Servicios</nombre>
+            </cargo>
+            <cargo>
+                <nombre_cargo>Administrador de sistemas</nombre_cargo>
+                <nombre>Sergio Kernel</nombre>
+            </cargo>
+        </jefe>
+    </departamento>
+</empresa>
